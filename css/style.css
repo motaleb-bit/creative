@@ -1,0 +1,246 @@
+/* //css common part start here // */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/* //css common part start here // */
+
+/* //header part start here// */
+#headerPart {
+    margin-top: 33px;
+    margin-bottom: 35px;
+}
+
+.navFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navMenu ul {
+    display: flex;
+    gap: 50px;
+}
+
+.navMenu ul li a {
+    color: #181818;
+    font-weight: 500;
+    font-size: 18px;
+    transition: all linear 0.3s;
+}
+
+.navMenu ul li a:hover {
+    color: #5956E8;
+}
+
+.navMenu ul li a::after {}
+
+.navBtn a {
+    padding: 13px 24px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    border: 1px solid #5956E8;
+    color: #eee;
+    background: #5956E8;
+    border-radius: 10px;
+    transition: all linear 0.3s;
+}
+
+.navBtn a:hover {
+    background: transparent;
+    color: #EEE;
+}
+
+/* //header part end here// */
+/* //banner part start here// */
+#bannerPart {
+    background: #5956E8;
+    padding: 182px 0;
+}
+
+.bannerFlex {
+    display: flex;
+    justify-content: space space-between;
+    align-items: center;
+    gap: 148px;
+}
+
+.bannerContent h1 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 65px;
+    border: 1px solid #5956E8;
+    color: #FFFEFE;
+    width: 501px;
+    line-height: 80px;
+}
+
+.bannerContent p {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFEFE;
+    width: 542px;
+    line-height: 27px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.bannerBtn a {
+    padding: 13px 22px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    border: 1px solid #EEEEEE;
+    color: #5956E8;
+    background: #EEEEEE;
+    border-radius: 10px;
+    transition: all linear 0.3s;
+}
+
+.bannerBtn a:hover {
+    background: transparent;
+    color: white;
+}
+
+/* //banner part end here// */
+/* //service part start here// */
+.servicePart {
+    background: #EEEEEE;
+    padding: 100px 0px;
+}
+
+.serviceContent {
+    text-align: center;
+}
+
+.serviceContent h2 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #181818;
+    margin-top: 30px;
+}
+
+.serviceCard {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.serviceContent p {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: rgba(24, 24, 24, 0.70);
+    margin: 0 auto;
+    width: 542px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.card {
+    border: 1px solid #E3E3E3;
+    width: 31.5%;
+    border-radius: 10px;
+    padding: 63px 48px;  
+}
+
+.card h3 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: rgba(24, 24, 24, 0.70);
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.card p {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(24, 24, 24, 0.70);
+    width: 274px;
+}
+
+/* //portfolio part start here// */
+.portfolioPart {
+    background: #EEEEEE;
+    padding: 100px 0px;
+}
+
+.portfolio_Content {
+    text-align: center;
+}
+
+.portfolio_Content h2 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #181818;
+    margin-top: 30px;  
+    padding-top: 100px;
+    }
+
+.portfolio_Content p {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: rgba(24, 24, 24, 0.70);
+    margin: 0 auto;
+    width: 542px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    }
+
+.portfolioCard {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    }
+    
+.cardTwo {
+
+    border: 1px solid #E3E3E3;
+    width: 25%;
+    border-radius: 10px;
+    display: flex;
+    gap: 30px;
+    flex-direction:wrap;
+
+}
+
+
+
+/* //portfolio part end here// */
+/* //header part start here// */
+/* //header part start here// */
